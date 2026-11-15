@@ -26,7 +26,8 @@
       "infoPlist": {
         "NSCameraUsageDescription": "Ứng dụng cần quyền Camera để quay video xác thực 4 khu vực phòng trọ.",
         "NSMicrophoneUsageDescription": "Ứng dụng cần quyền Micro để thu âm khi quay video phòng trọ.",
-        "NSLocationWhenInUseUsageDescription": "Ứng dụng cần quyền GPS để đóng dấu vị trí và thời gian thực lên video."
+        "NSLocationWhenInUseUsageDescription": "Ứng dụng cần quyền GPS để đóng dấu vị trí và thời gian thực lên video.",
+        "ITSAppUsesNonExemptEncryption": false
       }
     },
     "plugins": [
