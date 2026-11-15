@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Trọ Thực Tế",
+    "slug": "tro-thuc-te",
+    "scheme": "trothucte",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "android": {
+      "package": "com.appstash.trothucte",
+      "adaptiveIcon": {
+        "backgroundColor": "#10B981"
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Ứng dụng cần quyền Camera để quay video xác thực 4 khu vực phòng trọ.",
+          "microphonePermission": "Ứng dụng cần quyền Micro để thu âm khi quay video phòng trọ."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationPermission": "Ứng dụng cần quyền GPS để đóng dấu vị trí và thời gian thực lên video."
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
