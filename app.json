@@ -2,6 +2,7 @@
   "expo": {
     "name": "Trọ Thực Tế",
     "slug": "tro-thuc-te",
+    "owner": "appstash-pro",
     "scheme": "trothucte",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -37,6 +38,17 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "cli": {
+      "appVersionSource": "remote"
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "9d9d5d45-7383-4240-aee5-0485d2fa5870"
+      }
     }
   }
 }
